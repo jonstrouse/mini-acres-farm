@@ -21,9 +21,9 @@ a button:hover {
 .jumbotron {
   font-family: 'Cantarell', sans-serif;
   background-image: url("img/blueberry-background.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   margin-bottom: 2rem;
 }
 .jumbotron h1 {
