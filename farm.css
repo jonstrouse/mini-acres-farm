@@ -23,7 +23,7 @@ a button:hover {
   background-image: url("img/blueberry-background.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 60vh;
   margin-bottom: 2rem;
 }
 .jumbotron h1 {
