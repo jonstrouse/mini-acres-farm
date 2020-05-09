@@ -29,8 +29,8 @@ h3 {
 }
 .jumbotron a {
   display: block;
-  margin: 3rem auto;
-  width: 40%;
+  margin: 4rem auto 1rem;
+  width: 30%;
 }
 
 .icon {
