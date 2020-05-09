@@ -2,6 +2,10 @@ h3 {
   text-align: center;
 }
 
+a button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
 .navbar {
   background: rgba(255,255,255,.75);
 }
@@ -19,7 +23,7 @@ h3 {
   background-image: url("img/blueberry-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 500px;
   margin-bottom: 2rem;
 }
 .jumbotron h1 {
@@ -60,7 +64,7 @@ h3 {
   padding-top: 6rem;
 }
 #footer {
-  background: #009245;
+  background: slategrey;
   display: flex;
   flex-direction: column;
 }
@@ -81,4 +85,11 @@ h3 {
 .copyright p {
   color: white;
   text-align: center;
+}
+
+@media screen and (min-width: 976px) {
+  .jumbotron {
+    background-size: cover;
+    height: 75vh;
+  }
 }
