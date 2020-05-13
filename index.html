@@ -33,9 +33,11 @@
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid text-white">
-      <div class="container text-sm-center pt-5">
-        <h1 class="display-4">City Limits. Country Life.</h1>
-        <a class="btn btn-light btn-lg" href="#map">Find Us</a>
+      <div id="filter">
+        <div class="container text-sm-center pt-5">
+          <h1 class="display-4">City Limits. Country Life.</h1>
+          <a class="btn btn-light btn-lg" href="#map">Find Us</a>
+        </div>
       </div>
     </div><!-- /jumbotron -->
 
@@ -53,8 +55,8 @@
             You know exactly where our blueberries come from because you pluck those ripe little fellas yourself!
           </p>
           <h5>Season</h5>
-          <p>Picking normally begins in mid June and lasts through the end of July.
-          <strong> Hours: Tuesday 4-7pm, Saturdays 8-12pm.</strong> </p>
+          <p>Picking normally begins in <span class="season">mid-June through the end of July.</span>
+          <br><strong> Hours: Tuesday 4-7pm, Saturdays 8-12pm.</strong> </p>
           <h5>Cost</h5>
           <p><strong>$8 per half gallon</strong></p>
           <p>Please check our Facebook page for updates during the season before coming to the farm since we could close or delay opening due to crop availability or the weather.</p>
@@ -62,30 +64,24 @@
         </div>
 
         <div id="news" class="col-lg-12 order-2 mt-5">
-          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="newspaper" class="icon svg-inline--fa fa-newspaper fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-            <path fill="currentColor" d="M552 64H112c-20.858 0-38.643 13.377-45.248 32H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h496c13.255 0 24-10.745 24-24V88c0-13.255-10.745-24-24-24zM48 392V144h16v248c0 4.411-3.589 8-8 8s-8-3.589-8-8zm480 8H111.422c.374-2.614.578-5.283.578-8V112h416v288zM172 280h136c6.627 0 12-5.373 12-12v-96c0-6.627-5.373-12-12-12H172c-6.627 0-12 5.373-12 12v96c0 6.627 5.373 12 12 12zm28-80h80v40h-80v-40zm-40 140v-24c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H172c-6.627 0-12-5.373-12-12zm192 0v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0-144v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0 72v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12z">
-            </path></svg>
+          <img class="icon" src="img/hydro-ponics.svg" alt="">
           <h3 class="mb-4">New This Year</h3>
           <div class="row">
             <div class="col-lg-6">
-              <h5>Produce Boxes</h5>
+              <h5>Additional Produce</h5>
               <p>
-                We will be selling produces boxes on Saturday that will feature an assortment of fresh seasonal produce.
-                They will be $25 a box and will change from week to week based on availability.
+                We will be selling fresh local produce in addition to our blueberries.
+                They will be seasonal, so they will vary from week to week.
               </p>
               <p>
-                If you would like one of these boxes without picking, we ask that you <a href="https://www.facebook.com/miniacresfarmnc/">message us through Facebook Messenger</a> before Friday at noon.
-                You can pick these up on Saturday during picking times and pay with cash or you can pay ahead with Venmo to @LauraCollins8.
-              </p>
-              <p>
-                If you would like blueberries with your order, please note that in the message and they will be $10 per half gallon since they will be picked for you.
+                Please check our <a href="https://www.facebook.com/miniacresfarmnc/">Facebook page</a> as we will keep it up-to-date with what we will have.  Feel free to leave us suggestions!
               </p>
             </div>
             <div class="col-lg-6">
               <h5>Aquaponic Lettuce</h5>
               <p>
-                We will be selling aquaponic lettuce grown here in our own greenhouse in our aquaponic system fueled by tilapia.
-                These will be $3 a head.
+                We will be selling aquaponic lettuce, grown here in our own greenhouse in our aquaponic system fueled by tilapia, as available.
+                <strong>These will be $3 a head.</strong>
               </p>
               <h5>Designated Parking</h5>
               <p>
@@ -115,6 +111,10 @@
         <p>All Rights Reserved</p>
         <p>Tel: 919 810 5770</p>
         <p>3328 Mid Pines Rd. Raleigh, NC 27606</p>
+      </div>
+      <div class="design-by">
+        <img src="img/pumpkinhead_logo_2.png" alt="logo" />
+        <a target="_blank" href="http://jonstrouse.com">Site designed by Jon Strouse</a>
       </div>
     </footer><!-- /footer -->
 
