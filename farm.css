@@ -67,8 +67,6 @@ a:hover {
 .season {
   color: #1B1464;
   font-weight: bold;
-  padding: .3rem .5rem;
-  border-radius: .5rem;
 }
 .btn {
   display: block;
