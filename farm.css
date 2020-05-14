@@ -105,6 +105,10 @@ a:hover {
   text-decoration: none;
   text-align: center;
 }
+.phoneNum {
+  color: yellow;
+  text-decoration: none;
+}
 .design-by {
   display: flex;
   flex-direction: column;
