@@ -36,7 +36,6 @@ a:hover {
   background-image: url("img/blueberry-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 70vh;
   overflow: visible;
   margin-bottom: 2rem;
   padding-bottom: 0;
