@@ -132,7 +132,6 @@ svg .hair-2:hover,
 svg .hair-3:hover,
 svg .hair-4:hover {
   fill: orange;
-  transform: skewY(-10deg);
 }
 
 svg .mouth {
@@ -145,7 +144,8 @@ svg .mouth {
   transition: .5s ease-out;
 }
 .design-by a:hover {
-  color: orange;
+  font-weight: 500;
+  color: #424357;
 }
 
 
