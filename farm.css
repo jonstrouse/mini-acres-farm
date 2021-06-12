@@ -52,8 +52,19 @@ a:hover {
 .btn {
   width: 40%;
   max-width: 250px;
+  background-color: #10fc00;
+  color: #1B1464;
+  border-radius: 30px;
+  border: none;
+  display: block;
+  width: 50%;
+  margin: auto;
+  filter: drop-shadow(2px 3px 4px rgba(0,0,0,.5));
 }
-
+.btn:hover {
+  background-color: #2ddc21;
+  color: #1B1464;
+}
 .icon {
   width: 100px;
   display: block;
@@ -67,13 +78,22 @@ a:hover {
   color: #1B1464;
   font-weight: bold;
 }
-.btn {
-  display: block;
-  width: 50%;
-  margin: auto;
-}
+
 #news {
   margin-top: 3rem;
+}
+#news {
+  background-color: rgba(85, 167, 217,.25);
+  border-radius: 10px;
+  padding: 50px 20px;
+  position: relative;
+  filter: drop-shadow(2px 3px 4px rgba(0,0,0,.5));
+}
+#news .fas {
+  transform: scale(3);
+  color: #fff;
+  position: absolute;
+  left: 50px;
 }
 
 #map {
