@@ -51,14 +51,12 @@ a:hover {
 }
 
 .btn {
-    width: 40%;
-    max-width: 250px;
+    max-width: 70%;
     background-color: #21bb12;
     color: #fff;
     border-radius: 30px;
     border: none;
     display: block;
-    width: 50%;
     margin: auto;
 }
 .btn:hover {
@@ -198,6 +196,10 @@ svg .mouth {
     height: 75vh;
   }
 
+.btn {
+    width: 40%;
+    max-width: 250px;
+}
 #news {
     padding: 0 150px;
     position: relative;
