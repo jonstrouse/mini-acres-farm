@@ -49,21 +49,21 @@ a:hover {
   display: block;
   margin: 4rem auto 1rem;
 }
+
 .btn {
-  width: 40%;
-  max-width: 250px;
-  background-color: #10fc00;
-  color: #1B1464;
-  border-radius: 30px;
-  border: none;
-  display: block;
-  width: 50%;
-  margin: auto;
-  filter: drop-shadow(2px 3px 4px rgba(0,0,0,.5));
+    width: 40%;
+    max-width: 250px;
+    background-color: #1fb4f0;
+    color: #1B1464;
+    border-radius: 30px;
+    border: none;
+    display: block;
+    width: 50%;
+    margin: auto;
 }
 .btn:hover {
-  background-color: #2ddc21;
-  color: #1B1464;
+    background-color: #f0f0f0;
+    outline: 3px solid #1fb4f0;
 }
 .icon {
   width: 100px;
@@ -78,28 +78,46 @@ a:hover {
   color: #1B1464;
   font-weight: bold;
 }
-
-#news {
-  margin-top: 3rem;
+.sub-heading {
+    color: #1fb4f0;
+    margin-top: 20px;
+}
+.callout {
+    background-color: #f0f0f0;
+    padding: 30px;
+    margin-top: 30px;
 }
 #news {
-  background-color: rgba(85, 167, 217,.25);
-  border-radius: 10px;
-  padding: 50px 20px;
-  position: relative;
-  filter: drop-shadow(2px 3px 4px rgba(0,0,0,.5));
-}
-#news .fas {
-  transform: scale(3);
-  color: #fff;
-  position: absolute;
-  left: 50px;
-}
 
-#map {
-  height: 80vh;
-  padding-top: 6rem;
-  margin-bottom: 2em;
+}
+#news {
+    padding: 0 150px;
+    position: relative;
+}
+.news-img {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.news-img img {
+    width: 100px;
+}
+.news-img-wrapper {
+    content: "";
+    background-color: #1fb4f0;
+    border-radius: 50%;
+}
+.video-wrapper {
+    width: 50%;
+    margin: auto;
+}
+#news h5 {
+    margin-bottom: 50px !important;
+}
+ #map {
+    height: 80vh;
+    padding-top: 6rem;
+    margin-bottom: 2em;
 }
 #footer {
   background: lavender;
@@ -168,6 +186,15 @@ svg .mouth {
   color: #424357;
 }
 
+.ag-logos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ .ag-logos img {
+}
 
 @media screen and (min-width: 976px) {
   .jumbotron {
