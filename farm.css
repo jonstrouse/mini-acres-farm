@@ -53,8 +53,8 @@ a:hover {
 .btn {
     width: 40%;
     max-width: 250px;
-    background-color: #1fb4f0;
-    color: #1B1464;
+    background-color: #21bb12;
+    color: #fff;
     border-radius: 30px;
     border: none;
     display: block;
@@ -62,8 +62,8 @@ a:hover {
     margin: auto;
 }
 .btn:hover {
-    background-color: #f0f0f0;
-    outline: 3px solid #1fb4f0;
+    background-color: #12c801;
+    color: #fff;
 }
 .icon {
   width: 100px;
@@ -110,6 +110,8 @@ a:hover {
 .video-wrapper {
     width: 50%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 #news h5 {
     margin-bottom: 50px !important;
