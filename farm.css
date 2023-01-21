@@ -91,13 +91,14 @@ a:hover {
     padding: 30px;
 }
 .news-img img {
-    width: 100px;
+    width: 50px;
 }
-.news-img-wrapper {
+
+/*.news-img-wrapper {
     content: "";
     background-color: #1fb4f0;
     border-radius: 50%;
-}
+}*/
 .video-wrapper {
     display: flex;
     justify-content: center;
@@ -186,9 +187,7 @@ svg .mouth {
     justify-content: space-around;
     align-items: center;
 }
- .ag-logos img {
-     margin-top: 50px;
-}
+
 
 @media screen and (min-width: 976px) {
   .jumbotron {
@@ -201,10 +200,15 @@ svg .mouth {
     max-width: 250px;
 }
 #news {
-    padding: 0 150px;
+    padding: 0;
     position: relative;
 }
-
+.video-wrapper {
+    float: left;
+}
+#news button {
+    float: left;
+}
 .ag-logos {
     margin-top: 50px;
     display: flex;
